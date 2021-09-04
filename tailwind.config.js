@@ -2,6 +2,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundImage: theme => ({
+        'internet': "url('/computer-monitor.png')",
+      }),
       inset: {
         '22': '5.5rem',
         'hero-shirt': '21.5vh',
