@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'internet': "url('/computer-monitor.png')",
+        'internet': "url('/macbook-air.png')",
       }),
       inset: {
         '22': '5.5rem',
