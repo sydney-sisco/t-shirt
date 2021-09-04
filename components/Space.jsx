@@ -3,7 +3,6 @@ import { Planet } from 'react-ionicons'
 import { Earth } from 'react-ionicons'
 import { Sunny } from 'react-ionicons'
 import { Moon } from 'react-ionicons'
-
 import PageWrapper from './PageWrapper';
 
 

@@ -4,6 +4,7 @@ import IntroCopy from '../components/IntroCopy';
 import HeroShirt from '../components/HeroShirt';
 import Where from '../components/Where';
 import Space from '../components/Space';
+import Ocean from '../components/Ocean';
 
 export default function Home() {
   return (
@@ -15,10 +16,9 @@ export default function Home() {
       
       <IntroCopy />
       <HeroShirt />
-
       <Where />
-
       <Space />
+      <Ocean />
 
       <TestDiv />
       <TestDiv />
