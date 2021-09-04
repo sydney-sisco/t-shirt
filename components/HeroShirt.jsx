@@ -28,12 +28,12 @@ export default function HeroShirt() {
     <div className="relative bg-green-200 h-screen w-screen flex justify-center items-center">
 
       
-      <div className="absolute bottom-22">
+      <div className="absolute bottom-hero-shirt">
         <Man
           color={'#000000'} 
           title={''}
-          height="500px"
-          width="500px"
+          height="50vh"
+          width="50vh"
         />
       </div>
 
@@ -41,17 +41,17 @@ export default function HeroShirt() {
         <Shirt
           color={'#FFF'} 
           title={''}
-          height="250px"
-          width="250px"
+          height="23vh"
+          width="23vh"
         />
       </Parallax>
 
-        <Parallax className="absolute grid justify-center content-center" x={[-250, 250]} disabled={parallax}tagOuter="figure2">
+      <Parallax className="absolute grid justify-center content-center" x={[-250, 250]} disabled={parallax}tagOuter="figure2">
         <Shirt
           color={'#FFF'} 
           title={''}
-          height="250px"
-          width="250px"
+          height="23vh"
+          width="23vh"
         />
       </Parallax>
 

@@ -4,10 +4,14 @@ module.exports = {
     extend: {
       inset: {
         '22': '5.5rem',
+        'hero-shirt': '21.5vh',
       },
       width: {
         '100px': '100px',
         '125px': '125px',
+      },
+      translate: {
+        '-moon': '-14vw',
       },
     },
   },

@@ -7,7 +7,7 @@ export default function Where() {
   return (
     <PageWrapper extraClasses={'bg-yellow-300 flex justify-around items-center relative'}>
       <div className="absolute flex justify-around items-center w-screen">
-        <Parallax className="" x={[-100, 100]}>
+        <Parallax x={[-100, 100]}>
           <Shirt
             color={'#FFF'}
             title={''}
@@ -17,7 +17,7 @@ export default function Where() {
           />
         </Parallax>
 
-        <Parallax className="" x={[-100, 100]}>
+        <Parallax x={[-100, 100]}>
           <Shirt
             color={'#FFF'}
             title={''}
@@ -27,7 +27,7 @@ export default function Where() {
           />
         </Parallax>
 
-        <Parallax className="" x={[-100, 100]}>
+        <Parallax x={[-100, 100]}>
           <Shirt
             color={'#FFF'}
             title={''}
@@ -38,7 +38,7 @@ export default function Where() {
         </Parallax>
       </div>
       <div className="relative">
-        <Parallax className="" y={[-575, 575]}>
+        <Parallax y={[-575, 575]}>
           <H1>But where</H1>
         </Parallax>
       </div>
@@ -48,7 +48,7 @@ export default function Where() {
       </div>
 
       <div className="relative">
-        <Parallax className="" y={[575, -575]}>
+        <Parallax y={[575, -575]}>
           <H1>come from?</H1>
         </Parallax>
       </div>
